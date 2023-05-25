@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set API Key as Environment Variable
-        run: echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
+        run: echo "CONTENTFUL_API_KEY=${{ secrets.CONTENTFUL_API_KEY }}" >> $GITHUB_ENV
 
       - name: Display API Key
         run: echo $API_KEY
