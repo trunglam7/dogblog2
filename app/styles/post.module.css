@@ -1,0 +1,32 @@
+.blogContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.heroImage{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blogContainerReverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: lightcoral;
+}
+
+.leftSide{
+    padding: 2rem;
+    width: 50%
+}
+
+.leftSideReverse{
+    padding: 2rem;
+    text-align: right;
+    width: 50%;
+}

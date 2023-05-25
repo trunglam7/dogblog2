@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <script src={`https://dog-blog-1.disqus.com/embed.js`} async />
     </html>
   )
 }
